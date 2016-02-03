@@ -1,5 +1,5 @@
 module Browserlog
   class ApplicationController < ::ApplicationController
-     http_basic_authenticate_with :name => ENV["bl_log_name"], :password => ENV["bl_log_password"]
+     http_basic_authenticate_with :name => ENV["BL_LOG_NAME"], :password => ENV["BL_LOG_PASSWORD"]
   end
 end
